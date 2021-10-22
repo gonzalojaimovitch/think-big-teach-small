@@ -1,0 +1,470 @@
+#C1
+
+#WS
+positive_example(test/2,test([0],[0])).
+negative_example(test/2,test([0],D)):-
+                 generate([0],C),
+                 member(D,C).
+
+
+#AS I
+positive_example(test/2,test([0],[0])).
+positive_example(test/2,test([1,1,1,0,0,1],[1])).
+positive_example(test/2,test([1,1,0,1,0,1],[1])).
+negative_example(test/2,test([0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,0,1,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+                 
+
+#AS II
+positive_example(test/2,test([0],[0])).
+positive_example(test/2,test([1,1,1,0,0,1],[1])).
+positive_example(test/2,test([1,1,0,1,0,1],[1])).
+positive_example(test/2,test([1,0,0,1,1,0],[1])).
+positive_example(test/2,test([0,1,0,1,0],[0])).
+positive_example(test/2,test([1,1,1,1,0,0],[1])).
+negative_example(test/2,test([0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,0,1,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,0,0,1,1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,1,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,1,0,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+
+#C2
+
+#WS
+positive_example(test/2,test([1,0],[0])).
+negative_example(test/2,test([1,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([1,0],[0])).
+positive_example(test/2,test([0,1,0,0,0],[1])).
+positive_example(test/2,test([0,1,0,1,0],[1])).
+negative_example(test/2,test([1,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,0,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+
+#AS II
+positive_example(test/2,test([1,0],[0])).
+positive_example(test/2,test([0,1,0,0,0],[1])).
+positive_example(test/2,test([0,1,0,1,0],[1])).
+positive_example(test/2,test([1,0,1,1],[0])).
+positive_example(test/2,test([0,0],[0])).
+positive_example(test/2,test([0,0,1],[0])).
+negative_example(test/2,test([1,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,0,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,0,1,1],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,1],D)):-
+                 generate([0],C),
+                 member(D,C).
+
+#C3
+
+#WS
+positive_example(test/2,test([],[0])).
+positive_example(test/2,test([0,1],[])).
+negative_example(test/2,test([],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([],[0])).
+positive_example(test/2,test([0,1],[])).
+positive_example(test/2,test([0,1,0,1,0,0],[])).
+positive_example(test/2,test([1,0,1,0,1],[1])).
+negative_example(test/2,test([],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,1,0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0,1,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+
+#AS II
+positive_example(test/2,test([],[0])).
+positive_example(test/2,test([0,1],[])).
+positive_example(test/2,test([0,1,0,1,0,0],[])).
+positive_example(test/2,test([1,0,1,0,1],[1])).
+positive_example(test/2,test([0,1,0],[])).
+positive_example(test/2,test([1,0,0],[1])).
+positive_example(test/2,test([0,1,1,1,0,1],[])).
+negative_example(test/2,test([],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,1,0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0,1,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,1,1,0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#C4
+
+#WS
+positive_example(test/2,test([0],[0,1,1])).
+negative_example(test/2,test([0],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([0],[0,1,1])).
+positive_example(test/2,test([1,0],[1])).
+positive_example(test/2,test([0,0,1],[0,1,1])).
+negative_example(test/2,test([0],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,1],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+
+#AS II
+positive_example(test/2,test([0],[0,1,1])).
+positive_example(test/2,test([1,0],[1])).
+positive_example(test/2,test([0,0,1],[0,1,1])).
+positive_example(test/2,test([0,0],[0,1,1])).
+positive_example(test/2,test([0,0,0,1],[0,1,1])).
+positive_example(test/2,test([0,0,0],[0,1,1])).
+negative_example(test/2,test([0],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,1],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,0,1],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,0],D)):-
+                 generate([0,1,1],C),
+                 member(D,C).
+
+#C5
+
+#WS
+positive_example(test/2,test([],[1])).
+positive_example(test/2,test([1,1,1,0],[])).
+negative_example(test/2,test([],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([],[1])).
+positive_example(test/2,test([1,1,1,0],[])).
+positive_example(test/2,test([1,0],[1])).
+positive_example(test/2,test([1,1,1,0,0,1],[])).
+negative_example(test/2,test([],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0,0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS II
+positive_example(test/2,test([],[1])).
+positive_example(test/2,test([1,1,1,0],[])).
+positive_example(test/2,test([1,0],[1])).
+positive_example(test/2,test([1,1,1,0,0,1],[])).
+positive_example(test/2,test([1,1],[1])).
+positive_example(test/2,test([1,1,1,0,0],[])).
+positive_example(test/2,test([0,0,0,1],[0])).
+negative_example(test/2,test([],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0,0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([1,1,1,0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,0,1],D)):-
+                 generate([0],C),
+                 member(D,C).
+
+#C6
+
+#WS
+positive_example(test/2,test([0],[1,0])).
+positive_example(test/2,test([0,0],[])).
+negative_example(test/2,test([0],D)):-
+                 generate([1,0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([0],[1,0])).
+positive_example(test/2,test([0,0],[])).
+positive_example(test/2,test([1,1],[0,1])).
+positive_example(test/2,test([1,0],[])).
+negative_example(test/2,test([0],D)):-
+                 generate([1,0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,1],D)):-
+                 generate([0,1],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS II
+positive_example(test/2,test([0],[1,0])).
+positive_example(test/2,test([0,0],[])).
+positive_example(test/2,test([1,1],[0,1])).
+positive_example(test/2,test([1,0],[])).
+positive_example(test/2,test([1,0,1],[])).
+positive_example(test/2,test([],[1])).
+positive_example(test/2,test([0,0,0],[])).
+negative_example(test/2,test([0],D)):-
+                 generate([1,0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,1],D)):-
+                 generate([0,1],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,0],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#C7
+
+#WS
+positive_example(test/2,test([],[0])).
+positive_example(test/2,test([0],[])).
+positive_example(test/2,test([0,0],[0])).
+negative_example(test/2,test([],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([],[0])).
+positive_example(test/2,test([0],[])).
+positive_example(test/2,test([0,0],[0])).
+positive_example(test/2,test([0,0,0,1],[0])).
+positive_example(test/2,test([0,1],[1])).
+negative_example(test/2,test([],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,0,1],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+
+
+#AS II
+positive_example(test/2,test([],[0])).
+positive_example(test/2,test([0],[])).
+positive_example(test/2,test([0,0],[0])).
+positive_example(test/2,test([0,0,0,1],[0])).
+positive_example(test/2,test([0,1],[1])).
+positive_example(test/2,test([0,1,0,1],[1])).
+positive_example(test/2,test([0,0,1,0],[0])).
+positive_example(test/2,test([0,1,1,0],[1])).
+negative_example(test/2,test([],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,0,1],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,1],D)):-
+                 generate([1],C),
+                 member(D,C).
+negative_example(test/2,test([0,0,1,0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,1,0],D)):-
+                 generate([1],C),
+                 member(D,C).
+
+#C8
+
+#WS
+positive_example(test/2,test([],[0,1])).
+positive_example(test/2,test([0,1],[])).
+positive_example(test/2,test([1],[])).
+negative_example(test/2,test([],D)):-
+                 generate([0,1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS I
+positive_example(test/2,test([],[0,1])).
+positive_example(test/2,test([0,1],[])).
+positive_example(test/2,test([1],[])).
+positive_example(test/2,test([1,1],[])).
+positive_example(test/2,test([0,1,1],[])).
+negative_example(test/2,test([],D)):-
+                 generate([0,1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,1],D)):-
+                 generate([],C),
+                 member(D,C).
+
+#AS II
+positive_example(test/2,test([],[0,1])).
+positive_example(test/2,test([0,1],[])).
+positive_example(test/2,test([1],[])).
+positive_example(test/2,test([1,1],[])).
+positive_example(test/2,test([0,1,1],[])).
+positive_example(test/2,test([1,0],[])).
+positive_example(test/2,test([0],[0])).
+positive_example(test/2,test([0,1,0,0],[])).
+negative_example(test/2,test([],D)):-
+                 generate([0,1],C),
+                 member(D,C).
+negative_example(test/2,test([0,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,1],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([1,0],D)):-
+                 generate([],C),
+                 member(D,C).
+negative_example(test/2,test([0],D)):-
+                 generate([0],C),
+                 member(D,C).
+negative_example(test/2,test([0,1,0,0],D)):-
+                 generate([],C),
+                 member(D,C).
