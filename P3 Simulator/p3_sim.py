@@ -1,4 +1,7 @@
+import time
 def runP3(input, program):
+
+  start_time = time.time()
 
   inList = []
   progList = []
@@ -27,6 +30,8 @@ def runP3(input, program):
   leftpad = False
 
   while(True):
+    if (time.time() - start_time) > 10:
+      return "TIMEOUT"
     #Check if program ends
     if progPointer > (len(progList)-1):
       return output
@@ -40,6 +45,8 @@ def runP3(input, program):
         #Not necessary to change the pointer since it will stay as 0
         inList.insert(0,'.')
         leftpad = True
+      else:
+        progPointer = len(progList)
       progPointer = progPointer + 1
 
     elif pointedOp == ">":
@@ -78,22 +85,35 @@ def runP3(input, program):
     elif pointedOp == "[":
       if inList[inPointer] == '.':
         cond = len(progList)
+        midloop = 0
         i = (progPointer + 1)
         while i < cond:
           if progList[i] == "]":
-            progPointer = i
-            cond = i
+            if midloop == 0:
+              progPointer = i
+              cond = i
+            else:
+              midloop = midloop - 1
+          elif progList[i] == "[":
+            midloop = midloop + 1
           i = i + 1
       else:
         progPointer = progPointer + 1
+        
     elif pointedOp == "]":
       if inList[inPointer] != '.':
         cond = -1
+        midloop = 0
         i = (progPointer - 1)
         while i > cond:
           if progList[i] == "[":
-            progPointer = i
-            cond = i
+            if midloop == 0:
+              progPointer = i
+              cond = i
+            else:
+              midloop = midloop - 1
+          elif progList[i] == "]":
+            midloop = midloop + 1
           i = i - 1
       else:
         progPointer = progPointer + 1
