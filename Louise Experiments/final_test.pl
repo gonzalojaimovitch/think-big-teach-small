@@ -11,16 +11,8 @@ background_knowledge(test/2,[identityt/2,onet/2,lastt/2,reverset/2,firstt/2,zero
 %metarules(test/2,[chain,identity,inverse,tailrec,switch,swap]).
 metarules(test/2,[identity, chain, precon]).
 
-positive_example(test/2,test([0,1,0],[1])).
-positive_example(test/2,test([0,1],[1])).
 
-negative_example(test/2,test([0,1,0],[0,1])).
-negative_example(test/2,test([0,1,0],[1,0])).
-negative_example(test/2,test([0,1],[0])).
-negative_example(test/2,test([0,1],[1,0])).
-
-
-
+%ADD THE POSITIVE AND NEGATIVE EXAMPLES
 
 
 
