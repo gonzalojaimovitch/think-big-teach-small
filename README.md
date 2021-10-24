@@ -8,7 +8,7 @@ Authors: Gonzalo Jaimovitch-López, Cèsar Ferri, David Castellano-Falcón, Jos�
 
 ### GPT-2
 
-The experiment is fully performed on a single notebook. When opening the [Notebook](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-2%20Experiments/GPT_2_Experiments.ipynb), just follow the code sections to run the experiment. Please, read the instructions as the start of the notebook since they might be helpful to run the experiment.
+The experiment is fully performed on a single [Notebook](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-2%20Experiments/GPT_2_Experiments.ipynb). When opening the Notebook, just follow the code sections to run the experiment. Please, read the instructions as the start of the notebook since they might be helpful to run the experiment.
 
 ### GPT-3
 
