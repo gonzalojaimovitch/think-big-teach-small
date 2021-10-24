@@ -6,22 +6,31 @@ Software related to the paper "Think Big, Teach Small: Do Language Models Distil
 
 ### GPT-2
 
-The experiment is fully performed on Google Colab. When opening the [Notebook](https://drive.google.com/file/d/129lmj6Eszqra6BuHxTLe21x4zQgdZ8nf/view?usp=sharing), just follow the code sections to run the experiment.
+The experiment is fully performed on a single notebook. When opening the [Notebook](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-2%20Experiments/GPT_2_Experiments.ipynb), just follow the code sections to run the experiment. Please, read the instructions as the start of the notebook since they might be helpful to run the experiment.
 
 ### GPT-3
 
-There are different [Google Colab notebooks](https://drive.google.com/drive/folders/1tTOsREBfWHSBzpBakLvvKWaUBtkOkb9U?usp=sharing) which post-process the outputs returned by GPT-3 in the experiment. The use of GPT-3 requires of an API key which cannot be provided with the code. However, the [prompts](https://drive.google.com/file/d/1iW0zQcTm-gADFqg11Z8Bj1mfJW7EH9JJ/view?usp=sharing) used in the experiment are included in the repository.
+There are different [Google Colab notebooks](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/GPT-3%20Experiments/notebooks) which post-process the outputs returned by GPT-3 in the experiment. The use of GPT-3 requires of an API key which cannot be provided with the code. However, the [prompts](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-3%20Experiments/prompts.zip) used in the experiment are included in the repository.
+
+If you would like to run the prompt queries in GPT-3, visit the [OpenAI´s API Webpage](https://beta.openai.com/). Make sure you adjust the temperature depending on the experiment you would like to test. Furthermore, note that results between the use of the API from the webpage and the use of the API from the Python environment might differ based on the different encodings.
+
+The additional experiments...COMPLETE
 
 ### MagicHaskeller
 
-MagicHaskeller must be previously [installed](http://nautilus.cs.miyazaki-u.ac.jp/~skata/MagicHaskeller.html). To run the experiment, execute the [Python script](https://drive.google.com/file/d/15mdS3g3Gn9zFUcSsZCZ2c_cK74TNTAF6/view?usp=sharing). The returned functions will be written in the corresponding file depending on the path provided in the script. From the list of functions, we take the first in the list and use it as a solution, querying the test examples using Haskell. The summary of the results can be found in "MHResults.txt". 
+MagicHaskeller must be previously [installed](http://nautilus.cs.miyazaki-u.ac.jp/~skata/MagicHaskeller.html). To run the experiment, execute the [Python script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/MH%20Experiments/script.py). The returned functions will be written in the corresponding file depending on the path provided in the script. From the list of functions (you can find them outputs in this [folder](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/MH%20Experiments/MHOutputs)), we take the first function from the top of the list and use it as a solution, querying the test examples using Haskell. The summary of the results can be found in [MHResults.txt](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/MH%20Experiments/MHResults.txt).
 
 ### Louise
 
-Louise must be previously [installed](https://github.com/stassa/louise). Once running Louise using "final_test.pl" as the script file including the different examples (depending on the concept) in "pos_neg_ex.txt", the evaluation of the test examples (using the predicates returned by the system) is performed in the [Google Colab notebook](https://drive.google.com/file/d/1D-ngkUiR_NakPkrXJm0CoUEP6QjBdWLd/view?usp=sharing).
+Louise must be previously [installed](https://github.com/stassa/louise). First you should run Louise and execute the dedicated [script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Louise%20Experiments/final_test.pl) including the different examples (depending on the concept, you can find them in [pos_neg_ex.txt](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Louise%20Experiments/pos_neg_ex.txt)). Subsequently, the evaluation of the test examples (using the predicates returned by the system) is performed in the [notebook](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Louise%20Experiments/louise_experiments.ipynb).
+
+
+### Humans
+
+We provide a [PDF](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Human%20Experiments/Learning_Test.pdf) with the test performed by the human participants in this experiment. Note that, the headlines mark the start of each screen that was presented to the participants, as this is not clearly reflected in the PDF version of the form. This can be observed when opening the HTML file, stored in the source code [folder](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/Human%20Experiments/Learning_Test).
 
 ## Additional Material
 
-A [Python script](https://drive.google.com/file/d/1izHmMOJW_YO8QwEyzNvwP1pPOc1Qhe2Z/view?usp=sharing) is provided to test the [P3](https://en.wikipedia.org/wiki/Brainfuck) functioning.
+A [Python script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/P3%20Simulator/p3_sim.py) is provided to test the [P3](https://en.wikipedia.org/wiki/Brainfuck) functioning.
 
-Finally, an [R script](https://drive.google.com/file/d/1bxuk2-yvAxEIB3FZvm1DSFOe4MaTacsC/view?usp=sharing) for the generation of the paper plots is included, alongside the [fonts](https://drive.google.com/file/d/12iNCofQUKnnUAMlPzRGy4zMfQTVudqpF/view?usp=sharing) required.
+Finally, an [R script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Plots/plots.r) for the generation of the paper plots is included, alongside the [fonts](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Plots/Latin-Modern-Roman-fontfacekit.zip) required by the script.
