@@ -2,7 +2,7 @@
 
 Software related to the paper "Think Big, Teach Small: Do Language Models Distil Occam’s Razor?"
 
-Authors: Gonzalo Jaimovitch-López, Cèsar Ferri, David Castellano-Falcón, José Hernández-Orallo
+Authors: Gonzalo Jaimovitch-López, David Castellano-Falcón, Cèsar Ferri, José Hernández-Orallo
 
 ## Experiments
 
