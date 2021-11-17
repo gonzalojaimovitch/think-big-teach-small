@@ -36,9 +36,3 @@ We provide a [PDF](https://github.com/gonzalojaimovitch/think-big-teach-small/bl
 A [Python script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/P3%20Simulator/p3_sim.py) is provided to test the [P3](https://en.wikipedia.org/wiki/Brainfuck) functioning.
 
 Finally, an [R script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Plots/plots.r) for the generation of the paper plots is included, alongside the [fonts](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Plots/Latin-Modern-Roman-fontfacekit.zip) required by the script.
-
-## Acknowledgments
-
-David Castellano Falcón performed some of the experiments after the original submission, in particular those experiments with a larger number of concepts that we were requested after the NeurIPS revision phase. Accordingly, he is actually a contributor to this paper. Because of the NeurIPS policy with any change of authors after submission, he can only appear as co-author of the supplementary material, and not the main paper. 
-
-We thank the anonymous reviewers for their comments and interaction during the discussion process. We are grateful to Dan Hendricks, Fernando Martínez-Plumed and Richard Evans for useful discussions, Carlos Monserrat for some assistance with the plots, Lidia Contreras for their help with MagicHaskeller and M. José Ramírez for their help with questions about visualisation, inductive programming and Louise. We also thank Stephen Muggleton and Stassa Patsantzis for their help with Louise. To conclude, we thank the participants who completed the questionnaire.
