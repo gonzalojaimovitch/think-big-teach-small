@@ -9,7 +9,7 @@ loadfonts()
 
 #Insert the preferred directory to store the generated plots
 
-directory <- "INSERT"
+directory <- "/Users/gonzalojaimovitch/Desktop/plots"
 
 
 lgtbVRAINPalette <- c("#55CDFC","#F7A8B8","#FF0018","#FF8C00","#008026","#004DFF","#750787","#FFED00","#0F8698")
@@ -43,25 +43,6 @@ ylab("Explanation Lengths
 (Avg Char)")+scale_fill_manual("", values = cubeHelixPalette)+theme(axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "black", size = 0.1),panel.grid.minor.y = element_blank(),panel.border = element_rect(colour = "black", fill=NA),legend.position="bottom",legend.key.size = unit(4, "mm"),legend.text  = element_text(size = 9),legend.key = element_blank())
 
 ggsave(filename = "humansize_col.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
-
-
-sdf <- subset(df4,types=="Correct")
-
-
-plot1 <- ggplot(sdf,aes(x=complexities,y=percentages,fill=factor(types)))+
-geom_bar(stat="identity",position="dodge")+labs(fill = "")+
-ylab("Explanations (%)")+ylim(0,100)+theme(axis.title.x=element_blank(),text = element_text(size=10, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "black", size = 0.1),panel.grid.minor.y = element_blank(),panel.border = element_rect(colour = "black", fill=NA),legend.position="bottom",legend.key.size = unit(0.5, "lines"),legend.text  = element_text(size = 7),legend.key = element_blank())
-
-ggsave(filename = "humanperccorr_col.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
-
-sdf <- subset(df5,types=="Correct")
-
-
-plot1 <- ggplot(sdf,aes(x=complexities,y=sizes,fill=factor(types)))+
-geom_bar(stat="identity",position="dodge")+labs(fill = "")+
-ylab("Explanation Lengths (Avg Char)")+theme(axis.title.x=element_blank(),text = element_text(size=10, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_blank(),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "black", size = 0.1),panel.grid.minor.y = element_blank(),panel.border = element_rect(colour = "black", fill=NA),legend.position="bottom",legend.key.size = unit(0.5, "lines"),legend.text  = element_text(size = 7),legend.key = element_blank())
-
-ggsave(filename = "humansizecorr_col.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
 
 
 
@@ -150,6 +131,7 @@ GPT2expLoEx <- sum(abs(sd8$`GPT-2-exp` - sd8$`Louise-exp`))/length(sd8$`GPT-2-ex
 GPT2expLoEn <- sum(abs(sd8$`GPT-2-exp` - sd8$`Louise-ens`))/length(sd8$`GPT-2-exp`)
 GPT2ensMH <- sum(abs(sd8$`GPT-2-ens` - sd8$MH))/length(sd8$`GPT-2-ens`)
 GPT2ensLoEn <- sum(abs(sd8$`GPT-2-ens` - sd8$`Louise-ens`))/length(sd8$`GPT-2-ens`)
+GPT2ensLoEx <- sum(abs(sd8$`GPT-2-ens` - sd8$`Louise-exp`))/length(sd8$`GPT-2-ens`)
 MHLoEx <- sum(abs(sd8$MH - sd8$`Louise-exp`))/length(sd8$MH)
 MHLoEn <- sum(abs(sd8$MH - sd8$`Louise-ens`))/length(sd8$MH)
 LoEnLoEx <- sum(abs(sd8$`Louise-ens` - sd8$`Louise-exp`))/length(sd8$`Louise-ens`)
@@ -185,3 +167,68 @@ plot1 <- ggheatmap +
                                  title.position = "top", title.hjust = 0.5))
 
 ggsave(filename = "simerr_ES.png", plot = plot1 ,path = directory,height = 120, width = 160, units = "mm")
+
+
+df9 <- data.frame(phases=c("WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II","WS","AS I","AS II"), complexities=c("VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C","VL-C","VL-C","VL-C","L-C","L-C","L-C","H-C","H-C","H-C","VH-C","VH-C","VH-C"),accuracies=c(55,57.5,55,20,40,56.666,0,0,0,33.333,33.333,50,12.5,75,75,10,46.666,46.666,0,33.333,33.333,33.333,50,50,12.5,90,87.5,30,30,46.6665,0,16.666,33.333,33.333,50,50,80,80,100,10,30,46.666,0,33.333,33.333,33.333,50,50,55,45,65,10,20,56.666,0,0,16.666,16.666,50,50,12.5,87.5,77.5,0,30,46.666,0,33.333,50,33.333,50,50,35,80,100,10,30,20,0,0,33.333,16.666,50,50,67.5,55,90,16.666,10,46.666,16.666,33.333,33.333,50,50,50),learners=c("GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3A-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3B-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3C-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3D-T0","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3A-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3B-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3C-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1","GPT-3D-T1"))
+
+df9$phases <- factor(df9$phases, levels = c('WS','AS I','AS II'))
+
+df9$complexities <- factor(df9$complexities, levels = c('VL-C','L-C','H-C','VH-C'))
+
+
+df9a <- aggregate(df9, by = list(df9$learners, df9$phases), FUN =mean)
+
+
+plot1 <- ggplot(df9a,aes(x=Group.2,y=accuracies,group=Group.1,shape=Group.1,color=factor(Group.1)))+
+geom_line()+geom_point()+scale_color_manual("", values=lgtbVRAINPalette)+scale_shape_manual("",values = 1:8)+ylab("Average Accuracies (%)")+ylim(0,60)+theme(legend.text = element_text(size = 9),legend.position=c(0.66, 0.2),axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_line(colour = "grey", size = 0.1),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "grey", size = 0.1),panel.grid.minor.y = element_line(colour = "grey", size = 0.05),panel.border = element_rect(colour = "grey", fill=NA), legend.key.width = unit(2,"mm"), legend.key = element_blank(), legend.title = element_blank())+guides(colour = guide_legend(ncol=3))
+
+ggsave(filename = "gpt3com_col_ES.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
+
+
+df9b <- aggregate(df9, by = list(df9$learners, df9$complexities), FUN =mean)
+
+plot1 <- ggplot(df9b,aes(x=Group.2,y=accuracies,group=Group.1,shape=Group.1,color=factor(Group.1)))+
+geom_line()+geom_point()+scale_color_manual("", values=lgtbVRAINPalette)+scale_shape_manual("",values = 1:8)+ylab("Average Accuracies (%)")+ylim(0,100)+theme(legend.text = element_text(size = 9),legend.position=c(0.655, 0.8),axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_line(colour = "grey", size = 0.1),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "grey", size = 0.1),panel.grid.minor.y = element_line(colour = "grey", size = 0.05),panel.border = element_rect(colour = "grey", fill=NA), legend.key.width = unit(2,"mm"), legend.key = element_blank(), legend.title = element_blank())+guides(colour = guide_legend(ncol=3))
+
+ggsave(filename = "gpt3complexities_col_ES.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
+
+
+
+lgtbVRAINPalette <- c("#55CDFC","#FF0018","#008026","#750787")
+
+
+sdf <- subset(df9a,Group.1 == "GPT-3A-T0" | Group.1 == "GPT-3B-T0" | Group.1 == "GPT-3C-T0" | Group.1 == "GPT-3D-T0")
+
+plot1 <- ggplot(sdf,aes(x=Group.2,y=accuracies,group=Group.1,color=factor(Group.1)))+
+geom_line()+geom_point()+scale_color_manual("", values=lgtbVRAINPalette)+ylab("Average Accuracies (%)")+ylim(0,60)+theme(legend.text = element_text(size = 9),legend.position=c(0.66, 0.2),axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_line(colour = "grey", size = 0.1),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "grey", size = 0.1),panel.grid.minor.y = element_line(colour = "grey", size = 0.05),panel.border = element_rect(colour = "grey", fill=NA), legend.key.width = unit(2,"mm"), legend.key = element_blank(), legend.title = element_blank())+guides(colour = guide_legend(ncol=3))
+
+ggsave(filename = "gpt3T0com_col_ES.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
+
+
+sdf <- subset(df9b,Group.1 == "GPT-3A-T0" | Group.1 == "GPT-3B-T0" | Group.1 == "GPT-3C-T0" | Group.1 == "GPT-3D-T0")
+
+plot1 <- ggplot(sdf,aes(x=Group.2,y=accuracies,group=Group.1,color=factor(Group.1)))+
+geom_line()+geom_point()+scale_color_manual("", values=lgtbVRAINPalette)+ylab("Average Accuracies (%)")+ylim(0,100)+theme(legend.text = element_text(size = 9),legend.position=c(0.655, 0.8),axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_line(colour = "grey", size = 0.1),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "grey", size = 0.1),panel.grid.minor.y = element_line(colour = "grey", size = 0.05),panel.border = element_rect(colour = "grey", fill=NA), legend.key.width = unit(2,"mm"), legend.key = element_blank(), legend.title = element_blank())+guides(colour = guide_legend(ncol=3))
+
+ggsave(filename = "gpt3T0complexities_col_ES.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
+
+
+lgtbVRAINPalette <- c("#F7A8B8","#FF8C00","#004DFF","#FFED00")
+
+sdf <- subset(df9a,Group.1 == "GPT-3A-T1" | Group.1 == "GPT-3B-T1" | Group.1 == "GPT-3C-T1" | Group.1 == "GPT-3D-T1")
+
+plot1 <- ggplot(sdf,aes(x=Group.2,y=accuracies,group=Group.1,color=factor(Group.1)))+
+geom_line()+geom_point()+scale_color_manual("", values=lgtbVRAINPalette)+ylab("Average Accuracies (%)")+ylim(0,60)+theme(legend.text = element_text(size = 9),legend.position=c(0.66, 0.2),axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_line(colour = "grey", size = 0.1),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "grey", size = 0.1),panel.grid.minor.y = element_line(colour = "grey", size = 0.05),panel.border = element_rect(colour = "grey", fill=NA), legend.key.width = unit(2,"mm"), legend.key = element_blank(), legend.title = element_blank())+guides(colour = guide_legend(ncol=3))
+
+ggsave(filename = "gpt3T1com_col_ES.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
+
+
+sdf <- subset(df9b,Group.1 == "GPT-3A-T1" | Group.1 == "GPT-3B-T1" | Group.1 == "GPT-3C-T1" | Group.1 == "GPT-3D-T1")
+
+plot1 <- ggplot(sdf,aes(x=Group.2,y=accuracies,group=Group.1,color=factor(Group.1)))+
+geom_line()+geom_point()+scale_color_manual("", values=lgtbVRAINPalette)+ylab("Average Accuracies (%)")+ylim(0,100)+theme(legend.text = element_text(size = 9),legend.position=c(0.655, 0.8),axis.title.x=element_blank(),text = element_text(size=12, family="LM Roman 10"),panel.background = element_blank(),panel.grid.major.x = element_line(colour = "grey", size = 0.1),panel.grid.minor.x = element_blank(),panel.grid.major.y = element_line(colour = "grey", size = 0.1),panel.grid.minor.y = element_line(colour = "grey", size = 0.05),panel.border = element_rect(colour = "grey", fill=NA), legend.key.width = unit(2,"mm"), legend.key = element_blank(), legend.title = element_blank())+guides(colour = guide_legend(ncol=3))
+
+ggsave(filename = "gpt3T1complexities_col_ES.png", plot = plot1 ,path = directory, height = 70, width = 120, units = "mm")
+
+
+lgtbVRAINPalette <- c("#55CDFC","#F7A8B8","#FF0018","#FF8C00","#008026","#004DFF","#750787","#FFED00","#0F8698")
