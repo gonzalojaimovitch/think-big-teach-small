@@ -20,7 +20,7 @@ The additional experiments...COMPLETE
 
 ### MagicHaskeller
 
-MagicHaskeller must be previously [installed](http://nautilus.cs.miyazaki-u.ac.jp/~skata/MagicHaskeller.html). To run the experiment, execute the [Python script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/MH%20Experiments/script.py). The returned functions will be written in the corresponding file depending on the path provided in the script. From the list of functions (you can find them outputs in this [folder](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/MH%20Experiments/MHOutputs)), we take the first function from the top of the list and use it as a solution, querying the test examples using Haskell. The summary of the results can be found in [MHResults.txt](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/MH%20Experiments/MHResults.txt).
+MagicHaskeller must be previously [installed](http://nautilus.cs.miyazaki-u.ac.jp/~skata/MagicHaskeller.html). To run the experiment, execute the [Python script](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/MH%20Experiments/script.py). The returned functions will be written in the corresponding file depending on the path provided in the script. From the list of functions (you can find the outputs in this [folder](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/MH%20Experiments/MHOutputs)), we take the first function from the top of the list and use it as a solution, querying the test examples using Haskell. The summary of the results can be found in [MHResults.txt](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/MH%20Experiments/MHResults.txt).
 
 ### Louise
 
