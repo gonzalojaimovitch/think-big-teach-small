@@ -9,7 +9,7 @@ loadfonts()
 
 #Insert the preferred directory to store the generated plots
 
-directory <- "/Users/gonzalojaimovitch/Desktop/plots"
+directory <- "COMPLETE"
 
 
 lgtbVRAINPalette <- c("#55CDFC","#F7A8B8","#FF0018","#FF8C00","#008026","#004DFF","#750787","#FFED00","#0F8698")
