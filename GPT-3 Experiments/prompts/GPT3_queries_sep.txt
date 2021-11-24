@@ -1,0 +1,135 @@
+Input: 0\nOutput: 0\n\nInput: 0,0,0,0,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 0,0,1,1,1\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,0,1,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 0,0,1,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 0,0,0,0,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,1,1,0,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 0,0,1,1,1\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,1,0,1,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 0,0,1,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,0,0,1,1,0\nOutput: 1\n\nInput: 1,1,1,1,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 0\n\nInput: 0,0,0,0,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,0,0,1,1,0\nOutput: 1\n\nInput: 1,1,1,1,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,0,0,1,1,0\nOutput: 1\n\nInput: 1,1,1,1,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 0\n\nInput: 0,0,1,1,1\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,0,0,1,1,0\nOutput: 1\n\nInput: 1,1,1,1,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 0\n\nInput: 1,1,0,1,0\nOutput:
+Input: 0\nOutput: 0\n\nInput: 1,1,1,0,0,1\nOutput: 1\n\nInput: 1,1,0,1,0,1\nOutput: 1\n\nInput: 1,0,0,1,1,0\nOutput: 1\n\nInput: 1,1,1,1,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 0\n\nInput: 0,0,1,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,1,1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,0,1,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 1,0,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,1,0,1,1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,1,0,1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,0,1,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 1,0,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,1,1\nOutput: 0\n\nInput: 0,1,0,1,1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,1,1\nOutput: 0\n\nInput: 0,1,0,1\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,1,1\nOutput: 0\n\nInput: 0,0,1,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,1,1\nOutput: 0\n\nInput: 1,0,0\nOutput:
+Input: 1,0\nOutput: 0\n\nInput: 0,1,0,0,0\nOutput: 1\n\nInput: 0,1,0,1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,1,1\nOutput: 0\n\nInput: 1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,0,0,1,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 1,1,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,0,1,1,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 1,1,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 1,0,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,0,0,1,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 1,1,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,0,1,1,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 1,1,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 1,0,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,1,0\nOutput: -\n\nInput: 1,0,0\nOutput: 1\n\nInput: 0,1,1,1,0,1\nOutput: -\n\nInput: 0,0,0,1,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,1,0\nOutput: -\n\nInput: 1,0,0\nOutput: 1\n\nInput: 0,1,1,1,0,1\nOutput: -\n\nInput: 1,1,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,1,0\nOutput: -\n\nInput: 1,0,0\nOutput: 1\n\nInput: 0,1,1,1,0,1\nOutput: -\n\nInput: 0,0,1,1,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,1,0\nOutput: -\n\nInput: 1,0,0\nOutput: 1\n\nInput: 0,1,1,1,0,1\nOutput: -\n\nInput: 1,1,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0,1\nOutput: -\n\nInput: 0,1,0,1,0,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput: 1\n\nInput: 0,1,0\nOutput: -\n\nInput: 1,0,0\nOutput: 1\n\nInput: 0,1,1,1,0,1\nOutput: -\n\nInput: 1,0,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 0,1,0,1,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 0,1,0,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 0,0,1,0\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0,0\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,1,0,1,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,1,0,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,0,1,0\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 1,0,0\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,0,0,1\nOutput: 0,1,1\n\nInput: 0,0\nOutput: 0,1,1\n\nInput: 0,0,0\nOutput: 0,1,1\n\nInput: 0,1,0,1,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,0,0,1\nOutput: 0,1,1\n\nInput: 0,0\nOutput: 0,1,1\n\nInput: 0,0,0\nOutput: 0,1,1\n\nInput: 0,1,0,1\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,0,0,1\nOutput: 0,1,1\n\nInput: 0,0\nOutput: 0,1,1\n\nInput: 0,0,0\nOutput: 0,1,1\n\nInput: 0,0,1,0\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,0,0,1\nOutput: 0,1,1\n\nInput: 0,0\nOutput: 0,1,1\n\nInput: 0,0,0\nOutput: 0,1,1\n\nInput: 1,0,0\nOutput:
+Input: 0\nOutput: 0,1,1\n\nInput: 1,0\nOutput: 1\n\nInput: 0,0,1\nOutput: 0,1,1\n\nInput: 0,0,0,1\nOutput: 0,1,1\n\nInput: 0,0\nOutput: 0,1,1\n\nInput: 0,0,0\nOutput: 0,1,1\n\nInput: 1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 0,1,0,1,1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,1,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 0,0,1,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0,1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0,0,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 0,1,0,1,1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,1,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 0,0,1,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,0,1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,0,0,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,1\nOutput: 1\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput: -\n\nInput: 0,1,0,1,1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,1\nOutput: 1\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,1\nOutput: 1\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput: -\n\nInput: 0,0,1,0\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,1\nOutput: 1\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput: -\n\nInput: 1,0,1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1,1,1,0\nOutput: -\n\nInput: 1,0\nOutput: 1\n\nInput: 1,1,1,0,0,1\nOutput: -\n\nInput: 1,1\nOutput: 1\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 1,1,1,0,0\nOutput: -\n\nInput: 1,0,0,0\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 0,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 0,0,0,0\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 0,0,0,1,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 0,0,1,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,0,0,0\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: 0,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: 0,0,0,0\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: 0,0,0,1,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: 0,0,1,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: 1,0,0,0\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 1,0,1\nOutput: -\n\nInput: 0,0,0\nOutput: -\n\nInput: 0,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 1,0,1\nOutput: -\n\nInput: 0,0,0\nOutput: -\n\nInput: 0,0,0,0\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 1,0,1\nOutput: -\n\nInput: 0,0,0\nOutput: -\n\nInput: 0,0,0,1,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 1,0,1\nOutput: -\n\nInput: 0,0,0\nOutput: -\n\nInput: 0,0,1,1\nOutput:
+Input: 0\nOutput: 1,0\n\nInput: 0,0\nOutput: -\n\nInput: 1,1\nOutput: 0,1\n\nInput: 1,0\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 1,0,1\nOutput: -\n\nInput: 0,0,0\nOutput: -\n\nInput: 1,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,1,0,1,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 1,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,1,0,1,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 1,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 1,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,1,0,1\nOutput: 1\n\nInput: 0,0,1,0\nOutput: 0\n\nInput: 0,1,1,0\nOutput: 1\n\nInput: 0,1,0,1,1\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,1,0,1\nOutput: 1\n\nInput: 0,0,1,0\nOutput: 0\n\nInput: 0,1,1,0\nOutput: 1\n\nInput: 0,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,1,0,1\nOutput: 1\n\nInput: 0,0,1,0\nOutput: 0\n\nInput: 0,1,1,0\nOutput: 1\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,1,0,1\nOutput: 1\n\nInput: 0,0,1,0\nOutput: 0\n\nInput: 0,1,1,0\nOutput: 1\n\nInput: 1,0,0\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 0,0\nOutput: 0\n\nInput: 0,0,0,1\nOutput: 0\n\nInput: 0,1\nOutput: 1\n\nInput: 0,1,0,1\nOutput: 1\n\nInput: 0,0,1,0\nOutput: 0\n\nInput: 0,1,1,0\nOutput: 1\n\nInput: 1,0,0,0\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,1,0,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1,1,0,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0,0,1,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1,1,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,0,1,0,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,1,1,0,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 0,0,1,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,1,1,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 0,1,0,0\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 1,0,1,0,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 0,1,0,0\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 1,1,1,0,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 0,1,0,0\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 0,1,0,0\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 0,0,1,1\nOutput:
+Input: -\nOutput: 0,1\n\nInput: 0,1\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,1\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 0,1,0,0\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 1,1,1,1\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,1,0,1\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0,1,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0,1,0,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,1,1,1\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,0,1,0,1\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 0,1,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 0,1,0,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,1,1,1\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 1,0,1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 1,0,1,0,1\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 1,0,1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 1,0,1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,0,0,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 1,0,1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 0,1,0,0,0\nOutput:
+Input: -\nOutput: 0,1,0\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1,0,0\nOutput: -\n\nInput: 1,1,0\nOutput: -\n\nInput: 1,0\nOutput: -\n\nInput: 1,0,1\nOutput: -\n\nInput: 1,1\nOutput: -\n\nInput: 1,1,1,1\nOutput:

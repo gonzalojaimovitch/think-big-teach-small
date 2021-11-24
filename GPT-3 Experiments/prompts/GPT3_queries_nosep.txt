@@ -1,0 +1,135 @@
+Input: 0\nOutput: 0\n\nInput: 00000\nOutput:
+Input: 0\nOutput: 0\n\nInput: 11100\nOutput:
+Input: 0\nOutput: 0\n\nInput: 00111\nOutput:
+Input: 0\nOutput: 0\n\nInput: 11010\nOutput:
+Input: 0\nOutput: 0\n\nInput: 0010\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 00000\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 11100\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 00111\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 11010\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 0010\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 100110\nOutput: 1\n\nInput: 111100\nOutput: 1\n\nInput: 01010\nOutput: 0\n\nInput: 00000\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 100110\nOutput: 1\n\nInput: 111100\nOutput: 1\n\nInput: 01010\nOutput: 0\n\nInput: 11100\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 100110\nOutput: 1\n\nInput: 111100\nOutput: 1\n\nInput: 01010\nOutput: 0\n\nInput: 00111\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 100110\nOutput: 1\n\nInput: 111100\nOutput: 1\n\nInput: 01010\nOutput: 0\n\nInput: 11010\nOutput:
+Input: 0\nOutput: 0\n\nInput: 111001\nOutput: 1\n\nInput: 110101\nOutput: 1\n\nInput: 100110\nOutput: 1\n\nInput: 111100\nOutput: 1\n\nInput: 01010\nOutput: 0\n\nInput: 0010\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01011\nOutput:
+Input: 10\nOutput: 0\n\nInput: 0101\nOutput:
+Input: 10\nOutput: 0\n\nInput: 0010\nOutput:
+Input: 10\nOutput: 0\n\nInput: 100\nOutput:
+Input: 10\nOutput: 0\n\nInput: 1\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 01011\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 0101\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 0010\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 100\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 1\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 001\nOutput: 0\n\nInput: 00\nOutput: 0\n\nInput: 1011\nOutput: 0\n\nInput: 01011\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 001\nOutput: 0\n\nInput: 00\nOutput: 0\n\nInput: 1011\nOutput: 0\n\nInput: 0101\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 001\nOutput: 0\n\nInput: 00\nOutput: 0\n\nInput: 1011\nOutput: 0\n\nInput: 0010\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 001\nOutput: 0\n\nInput: 00\nOutput: 0\n\nInput: 1011\nOutput: 0\n\nInput: 100\nOutput:
+Input: 10\nOutput: 0\n\nInput: 01000\nOutput: 1\n\nInput: 01010\nOutput: 1\n\nInput: 001\nOutput: 0\n\nInput: 00\nOutput: 0\n\nInput: 1011\nOutput: 0\n\nInput: 1\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 00010\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 110\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 00111\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 11000\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 101\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 00010\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 110\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 00111\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 11000\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 101\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 010\nOutput: -\n\nInput: 100\nOutput: 1\n\nInput: 011101\nOutput: -\n\nInput: 00010\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 010\nOutput: -\n\nInput: 100\nOutput: 1\n\nInput: 011101\nOutput: -\n\nInput: 110\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 010\nOutput: -\n\nInput: 100\nOutput: 1\n\nInput: 011101\nOutput: -\n\nInput: 00111\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 010\nOutput: -\n\nInput: 100\nOutput: 1\n\nInput: 011101\nOutput: -\n\nInput: 11000\nOutput:
+Input: -\nOutput: 0\n\nInput: 01\nOutput: -\n\nInput: 010100\nOutput: -\n\nInput: 10101\nOutput: 1\n\nInput: 010\nOutput: -\n\nInput: 100\nOutput: 1\n\nInput: 011101\nOutput: -\n\nInput: 101\nOutput:
+Input: 0\nOutput: 011\n\nInput: 01011\nOutput:
+Input: 0\nOutput: 011\n\nInput: 0101\nOutput:
+Input: 0\nOutput: 011\n\nInput: 0010\nOutput:
+Input: 0\nOutput: 011\n\nInput: 100\nOutput:
+Input: 0\nOutput: 011\n\nInput: 1\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 01011\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0101\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0010\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 100\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 1\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0001\nOutput: 011\n\nInput: 00\nOutput: 011\n\nInput: 000\nOutput: 011\n\nInput: 01011\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0001\nOutput: 011\n\nInput: 00\nOutput: 011\n\nInput: 000\nOutput: 011\n\nInput: 0101\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0001\nOutput: 011\n\nInput: 00\nOutput: 011\n\nInput: 000\nOutput: 011\n\nInput: 0010\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0001\nOutput: 011\n\nInput: 00\nOutput: 011\n\nInput: 000\nOutput: 011\n\nInput: 100\nOutput:
+Input: 0\nOutput: 011\n\nInput: 10\nOutput: 1\n\nInput: 001\nOutput: 011\n\nInput: 0001\nOutput: 011\n\nInput: 00\nOutput: 011\n\nInput: 000\nOutput: 011\n\nInput: 1\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 01011\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 110\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 0010\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 101\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 1000\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 01011\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 110\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 0010\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 101\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 1000\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 11\nOutput: 1\n\nInput: 0001\nOutput: 0\n\nInput: 11100\nOutput: -\n\nInput: 01011\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 11\nOutput: 1\n\nInput: 0001\nOutput: 0\n\nInput: 11100\nOutput: -\n\nInput: 110\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 11\nOutput: 1\n\nInput: 0001\nOutput: 0\n\nInput: 11100\nOutput: -\n\nInput: 0010\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 11\nOutput: 1\n\nInput: 0001\nOutput: 0\n\nInput: 11100\nOutput: -\n\nInput: 101\nOutput:
+Input: -\nOutput: 1\n\nInput: 1110\nOutput: -\n\nInput: 10\nOutput: 1\n\nInput: 111001\nOutput: -\n\nInput: 11\nOutput: 1\n\nInput: 0001\nOutput: 0\n\nInput: 11100\nOutput: -\n\nInput: 1000\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 01\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 0000\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 00011\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 0011\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 1000\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: 01\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: 0000\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: 00011\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: 0011\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: 1000\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 101\nOutput: -\n\nInput: 000\nOutput: -\n\nInput: 01\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 101\nOutput: -\n\nInput: 000\nOutput: -\n\nInput: 0000\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 101\nOutput: -\n\nInput: 000\nOutput: -\n\nInput: 00011\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 101\nOutput: -\n\nInput: 000\nOutput: -\n\nInput: 0011\nOutput:
+Input: 0\nOutput: 10\n\nInput: 00\nOutput: -\n\nInput: 11\nOutput: 01\n\nInput: 10\nOutput: -\n\nInput: -\nOutput: 1\n\nInput: 101\nOutput: -\n\nInput: 000\nOutput: -\n\nInput: 1000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 01011\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 00000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 100\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 1000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 01011\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 0000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 00000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 100\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 1000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 0101\nOutput: 1\n\nInput: 0010\nOutput: 0\n\nInput: 0110\nOutput: 1\n\nInput: 01011\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 0101\nOutput: 1\n\nInput: 0010\nOutput: 0\n\nInput: 0110\nOutput: 1\n\nInput: 0000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 0101\nOutput: 1\n\nInput: 0010\nOutput: 0\n\nInput: 0110\nOutput: 1\n\nInput: 00000\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 0101\nOutput: 1\n\nInput: 0010\nOutput: 0\n\nInput: 0110\nOutput: 1\n\nInput: 100\nOutput:
+Input: -\nOutput: 0\n\nInput: 0\nOutput: -\n\nInput: 00\nOutput: 0\n\nInput: 0001\nOutput: 0\n\nInput: 01\nOutput: 1\n\nInput: 0101\nOutput: 1\n\nInput: 0010\nOutput: 0\n\nInput: 0110\nOutput: 1\n\nInput: 1000\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 10101\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11101\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 00000\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0011\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1111\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 10101\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 11101\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 00000\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 0011\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 1111\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 0100\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 10101\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 0100\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 11101\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 0100\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 00000\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 0100\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 0011\nOutput:
+Input: -\nOutput: 01\n\nInput: 01\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 011\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 0100\nOutput: -\n\nInput: 0\nOutput: 0\n\nInput: 1111\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 10101\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 0100\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 00000\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 01000\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 1111\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 10101\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 0100\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 00000\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 01000\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 1111\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 101\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 10101\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 101\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 0100\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 101\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 00000\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 101\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 01000\nOutput:
+Input: -\nOutput: 010\n\nInput: 0\nOutput: -\n\nInput: 1\nOutput: -\n\nInput: 100\nOutput: -\n\nInput: 110\nOutput: -\n\nInput: 10\nOutput: -\n\nInput: 101\nOutput: -\n\nInput: 11\nOutput: -\n\nInput: 1111\nOutput:
