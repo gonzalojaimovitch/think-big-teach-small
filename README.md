@@ -4,7 +4,7 @@ Software related to the paper "Think Big, Teach Small: Do Language Models Distil
 
 Authors: Gonzalo Jaimovitch-López, David Castellano-Falcón, Cèsar Ferri, José Hernández-Orallo
 
-## Experiments
+# Experiments
 
 ## GPT-2
 
