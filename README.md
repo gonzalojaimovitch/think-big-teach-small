@@ -12,11 +12,13 @@ The experiment is fully performed on a single [Notebook](https://github.com/gonz
 
 ### GPT-3
 
-There are different [Notebooks](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/GPT-3%20Experiments/notebooks) which post-process the outputs returned by GPT-3 in the experiment. The use of GPT-3 requires of an API key which cannot be provided with the code. However, the [prompts](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-3%20Experiments/prompts.zip) used in the experiment are included in the repository.
+There are different [Notebooks](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/GPT-3%20Experiments/notebooks) which post-process the outputs returned by GPT-3 in the experiment. 
+
+You can find two folders: [main](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/GPT-3%20Experiments/notebooks/main) (for the experiments presented in the main paper) and [additional](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/GPT-3%20Experiments/notebooks/additional) (for the experiments included in the supplementary material). 
+
+The use of GPT-3 requires of an API key which cannot be provided with the code. However, the [prompts](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-3%20Experiments/prompts.zip) used in the experiment are included in the repository.
 
 If you would like to run the prompt queries in GPT-3, visit the [OpenAI´s API Webpage](https://beta.openai.com/). Make sure you adjust the temperature depending on the experiment you would like to test. Furthermore, note that results between the use of the API from the webpage and the use of the API from the Python environment might differ based on the different encodings.
-
-The additional experiments...COMPLETE
 
 ### MagicHaskeller
 
