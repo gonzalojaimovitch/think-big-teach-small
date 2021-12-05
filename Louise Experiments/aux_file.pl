@@ -40,6 +40,3 @@ flipt([1|X],[0|Y]) :- flipt(X,Y).
 
 firstzerot([0|_]).
 firstonet([1|_]).
-
-
-test(A,B):-firstonet(A),emptyt(A,B).
