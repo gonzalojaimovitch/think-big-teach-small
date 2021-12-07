@@ -71,7 +71,7 @@ Subsequently, the evaluation of the test examples (using the predicates returned
 
 ## Humans
 
-We provide a [PDF](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Human%20Experiments/Learning_Test.pdf) with the questionnaire performed by the human participants in this experiment. Note that the headlines mark the start of each screen that was presented to the participants, as this is not clearly reflected in the PDF version of the form. This can be observed when opening the HTML file, stored in the source code [folder](https://github.com/gonzalojaimovitch/think-big-teach-small/tree/main/Human%20Experiments/Learning_Test).
+We provide a [PDF](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/Human%20Experiments/Learning_Test.pdf) with the questionnaire performed by the human participants in this experiment. Note that the headlines mark the start of each screen that was presented to the participants.
 
 ## Additional Material
 
