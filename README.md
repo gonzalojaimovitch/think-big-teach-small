@@ -49,7 +49,7 @@ MODEL = 'davinci'
   #Choose complete_EXPERIMENT.csv being EXPERIMENT {'ada', 'babbage', 'curie', 'davinci', 'EXP_A', 'EXP_B'}
   EXPERIMENT = 'ada'
   ```
-5. [Baselines]((https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-3%20Experiments/notebooks/additional/BASELINES.ipynb))
+5. [Baselines](https://github.com/gonzalojaimovitch/think-big-teach-small/blob/main/GPT-3%20Experiments/notebooks/additional/BASELINES.ipynb)
 
 
 ## MagicHaskeller
