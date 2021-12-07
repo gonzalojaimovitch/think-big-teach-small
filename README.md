@@ -1,6 +1,6 @@
 # Think Big, Teach Small: Do Language Models Distil Occam’s Razor?
 
-Software related to the paper "Think Big, Teach Small: Do Language Models Distil Occam’s Razor?"
+Software related to the paper "Think Big, Teach Small: Do Language Models Distil Occam’s Razor?" from NeurIPS 2021.
 
 Authors: Gonzalo Jaimovitch-López, David Castellano-Falcón, Cèsar Ferri, José Hernández-Orallo
 
