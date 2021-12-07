@@ -62,3 +62,6 @@ def runMHexperiment():
       print(query)
       print(datetime.now().strftime("%H:%M:%S"))
       os.system(query)
+
+createFiles()
+runMHexperiment()
